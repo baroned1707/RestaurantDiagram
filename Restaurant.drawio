@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T08:16:51.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="0feLblyhKNQvH9MygO6s" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T03:48:42.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="A_ybb4545ul9FpJvxlHG" version="16.6.4" type="github">
   <diagram id="YImii7tiH5j1vaAjQ2aK" name="Page-1">
-    <mxGraphModel dx="6830" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="6830" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="hHw5ABc2bmfRjNLqlmMM-15" value="History" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="-3370" y="1550" width="250" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="hHw5ABc2bmfRjNLqlmMM-16" value="+ time : string ;&#xa;+ userIDAction : number ;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="hHw5ABc2bmfRjNLqlmMM-15" vertex="1">
+        <mxCell id="hHw5ABc2bmfRjNLqlmMM-16" value="+ time : string ;&#xa;+ userIDAction : number ;&#xa;+ content: string ;&#xa;+ actionObject: object;&#xa;+ time: string;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="hHw5ABc2bmfRjNLqlmMM-15" vertex="1">
           <mxGeometry y="30" width="250" height="320" as="geometry" />
         </mxCell>
         <mxCell id="hHw5ABc2bmfRjNLqlmMM-17" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
@@ -50,6 +50,12 @@
           <mxGeometry x="-3010" y="1550" width="250" height="350" as="geometry" />
         </mxCell>
         <mxCell id="hHw5ABc2bmfRjNLqlmMM-24" value="+ time : string ;&#xa;+ userID : number ;&#xa;+ userPhone : string  ;&#xa;+ userName : string ;&#xa;+ type : single | party ;&#xa;+ hallID : number ;&#xa;+ status : accept | pending | denied ;&#xa;+ isPaid : bool ;&#xa;+ totalMoney : number ;&#xa;+ tableID : number ;&#xa;+ listFood : Food[];&#xa;+ isDone : bool ;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="hHw5ABc2bmfRjNLqlmMM-23" vertex="1">
+          <mxGeometry y="30" width="250" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VmDObwDm4uaXN6uW43L5-1" value="Notifi" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-3370" y="1960" width="250" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="VmDObwDm4uaXN6uW43L5-2" value="+ time : string ;&#xa;+ userIDAction : number ;&#xa;+ content: string ;&#xa;+ actionObject: object;&#xa;+ time: string;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="VmDObwDm4uaXN6uW43L5-1">
           <mxGeometry y="30" width="250" height="320" as="geometry" />
         </mxCell>
       </root>
